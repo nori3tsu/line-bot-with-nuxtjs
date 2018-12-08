@@ -21,6 +21,9 @@ async function start() {
     await builder.build()
   }
 
+  // API機能を追加
+  app.use(require('./api'))
+
   // Give nuxt middleware to express
   app.use(nuxt.render)
 
