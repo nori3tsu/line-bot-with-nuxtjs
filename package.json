@@ -13,19 +13,27 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@line/bot-sdk": "^6.4.0",
+    "@nuxtjs/bulma": "^1.2.0",
+    "bluebird": "^3.5.3",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
+    "dotenv": "^6.2.0",
     "express": "^4.16.3",
-    "@nuxtjs/bulma": "^1.2.0"
+    "node-cache": "^4.2.0",
+    "nuxt": "^2.0.0",
+    "pino": "^5.9.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0",
     "babel-eslint": "^8.2.1",
     "eslint": "^5.0.1",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^4.0.0",
     "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.0.0",
     "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-vue": "^4.0.0",
+    "nodemon": "^1.11.0",
     "prettier": "1.14.3"
   }
 }
