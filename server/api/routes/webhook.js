@@ -47,6 +47,10 @@ module.exports = async (req, res, next) => {
       {
         type: 'text',
         text: `${event.message.text}を受信しました`
+      },
+      {
+        type: 'text',
+        text: `LIFF動作確認用URL: ${process.env.LIFF_URL}`
       }
     ]
 
